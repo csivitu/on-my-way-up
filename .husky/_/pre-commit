@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+echo 'Styling, testing and building project before committing'
+npx lint-staged
+echo 'Committing...' 
